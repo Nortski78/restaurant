@@ -1,3 +1,3 @@
-import initialiseWebsite from "./website.js";
+import pageLoad from "./pageload";
 
-initialiseWebsite();
+pageLoad();
