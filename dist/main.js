@@ -1,1 +1,1 @@
-console.log("Working");
+(()=>{"use strict";console.log("Called initialiseWebsite()"),document.querySelector("#content").appendChild(function(){const e=document.createElement("div");return e.classList.add("header"),navBar.getItems().forEach((t=>{e.appendChild(t)})),e}())})();

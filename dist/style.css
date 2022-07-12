@@ -1,0 +1,23 @@
+@import url("./reset.css");
+
+html, body {
+    height: 100%;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+#content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    background-color:bisque;
+}
+
+.header {
+    height: 150px;
+    width: 100%;
+    background-color: darkkhaki;
+}

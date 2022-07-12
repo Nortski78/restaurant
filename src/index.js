@@ -1,1 +1,3 @@
-console.log("Working");
+import initialiseWebsite from "./website.js";
+
+initialiseWebsite();
