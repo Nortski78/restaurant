@@ -1,9 +1,9 @@
-import createNavBar from "./navBar.js";
+import navbar from "./navBar";
 
 function createHeader() {
     const header = document.createElement('div');
     header.classList.add('header');
-    header.appendChild(createNavBar());
+    header.appendChild(navbar());
 
     return header;
 }
