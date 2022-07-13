@@ -19,6 +19,52 @@ main {
     height: 100%;
     justify-content: center;
     background-color:bisque;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    background-color:beige;
+}
+
+.main-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+}
+
+.main-btn {
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+    margin: 0 0 0 10px;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: none;
+    border-radius: 5px 5px 0px 0px;
+    cursor: pointer;
+    color: gray;
+}
+
+.main-btn:hover {
+    border-color: black;
+    color: black;
+    font-weight: bold;
+}
+
+.active {
+    border-color: black;
+    color: black;
+    font-weight: bold;
 }
 
 .data-container {
@@ -47,4 +93,17 @@ main {
 
 .contain {
     object-fit: contain;
+}
+
+.text-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 0 0 0;
+}
+
+.text-container p {
+    width: 50%;
+    font-size: 16px;
+    text-align: center;
 }
